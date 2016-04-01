@@ -1,0 +1,21 @@
+# basic pulse input file against which various scenarios shall be tested
+@1505
+# suppress output during preamble
+>>> 0
+!0
+# initial values -- this is where the pulse is defined
+: 2 pulse_start pulse_end
+= 0 0 20 120
+: 3 P_a_step Pa_CO2_step SaO2_step
+= 0 0 99.01 39.63 0.96
+: 3 u_step yFlux_step contrib_scalp
+= 0 0 1.25 1 0
+# equilibrate
+: 0
+= -1000 0
+# restore outputs
+!!!
+>>> *
+# run the simulation steps with no explicit changes -- inputs will be set by the pulse
+= 0 0.1
+* 1500 0.1
