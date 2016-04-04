@@ -65,6 +65,8 @@ results presented in Figure 5 of the paper. These can be executed via the `optim
 distribution (which in turn depends on the [OpenOpt](openopt) library). They require that the `bsx_pulse` model
 has been built and is available to `optim.py` (typically in the `build` directory).
 
+[![DOI](https://zenodo.org/badge/11938/bcmd/bsx.svg)](https://zenodo.org/badge/latestdoi/11938/bcmd/bsx)
+
 [bcmd]: https://github.com/bcmd/BCMD
 [bsx1]: https://github.com/bcmd/bsx
 [bsrv]: https://github.com/bcmd/bsrv
