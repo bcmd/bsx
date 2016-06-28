@@ -10,5 +10,6 @@
 @import pulse
 
 # bring in the rest of the model as is
-@import scalp
+@import scalp_x
+@import scalp_y
 @import bsx_brain

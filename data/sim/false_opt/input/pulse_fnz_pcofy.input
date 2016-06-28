@@ -7,9 +7,9 @@
 : 2 pulse_start pulse_end
 = 0 0 20 120
 : 3 P_a_step Pa_CO2_step SaO2_step
-= 0 0 87.39 42.26 0.960
+= 0 0 102.58 41.31 0.96
 : 3 u_step yFlux_step contrib_scalp
-= 0 0 1.25 0.87 0.99
+= 0 0 1.25 1.01 0.98
 # equilibrate
 : 0
 = -1000 0
